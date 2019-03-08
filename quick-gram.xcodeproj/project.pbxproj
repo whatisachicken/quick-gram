@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		273FA7EA2231BAFB000FEBC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA7E92231BAFB000FEBC2 /* AppDelegate.swift */; };
-		273FA7EC2231BAFB000FEBC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA7EB2231BAFB000FEBC2 /* ViewController.swift */; };
 		273FA7EF2231BAFB000FEBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273FA7ED2231BAFB000FEBC2 /* Main.storyboard */; };
 		273FA7F12231BAFD000FEBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273FA7F02231BAFD000FEBC2 /* Assets.xcassets */; };
 		273FA7F42231BAFD000FEBC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273FA7F22231BAFD000FEBC2 /* LaunchScreen.storyboard */; };
 		273FA7FF2231BAFD000FEBC2 /* quick_gramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA7FE2231BAFD000FEBC2 /* quick_gramTests.swift */; };
 		273FA80A2231BAFD000FEBC2 /* quick_gramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA8092231BAFD000FEBC2 /* quick_gramUITests.swift */; };
+		273FA8182231C0B1000FEBC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA8172231C0B1000FEBC2 /* LoginViewController.swift */; };
+		273FA81A2231C0C3000FEBC2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA8192231C0C3000FEBC2 /* FeedViewController.swift */; };
+		273FA81C2231DCBC000FEBC2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA81B2231DCBC000FEBC2 /* CameraViewController.swift */; };
+		273FA81E2231E991000FEBC2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA81D2231E991000FEBC2 /* PostCell.swift */; };
+		6A73AE401F2FD6AF516C4FCE /* Pods_quick_gramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466BE0DDB8223135A86D7A08 /* Pods_quick_gramTests.framework */; };
+		A9D98F08C0EA09B84B5339F4 /* Pods_quick_gramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95CF7926A9E1FD5AC6DC44 /* Pods_quick_gramUITests.framework */; };
+		E81667B580CC3AEC84724AF5 /* Pods_quick_gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425826797599257D23A4B066 /* Pods_quick_gram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12475AEDB3742BA4750EFEC2 /* Pods-quick-gramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gramTests.debug.xcconfig"; path = "Target Support Files/Pods-quick-gramTests/Pods-quick-gramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		273FA7E62231BAFB000FEBC2 /* quick-gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quick-gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		273FA7E92231BAFB000FEBC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		273FA7EB2231BAFB000FEBC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		273FA7EE2231BAFB000FEBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		273FA7F02231BAFD000FEBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273FA7F32231BAFD000FEBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,18 @@
 		273FA8052231BAFD000FEBC2 /* quick-gramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quick-gramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		273FA8092231BAFD000FEBC2 /* quick_gramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quick_gramUITests.swift; sourceTree = "<group>"; };
 		273FA80B2231BAFD000FEBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273FA8172231C0B1000FEBC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		273FA8192231C0C3000FEBC2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		273FA81B2231DCBC000FEBC2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		273FA81D2231E991000FEBC2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		425826797599257D23A4B066 /* Pods_quick_gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BE0DDB8223135A86D7A08 /* Pods_quick_gramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_gramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CC2BE4B5D1E0CCE9CAE708 /* Pods-quick-gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gram.debug.xcconfig"; path = "Target Support Files/Pods-quick-gram/Pods-quick-gram.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5B2DF09CD4A54551757C46 /* Pods-quick-gram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gram.release.xcconfig"; path = "Target Support Files/Pods-quick-gram/Pods-quick-gram.release.xcconfig"; sourceTree = "<group>"; };
+		7A95CF7926A9E1FD5AC6DC44 /* Pods_quick_gramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_gramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABC30D3638EDF8A35AF8586 /* Pods-quick-gramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gramUITests.debug.xcconfig"; path = "Target Support Files/Pods-quick-gramUITests/Pods-quick-gramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A75D5DECC45FE1F7C1131EEF /* Pods-quick-gramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gramUITests.release.xcconfig"; path = "Target Support Files/Pods-quick-gramUITests/Pods-quick-gramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C284BB3A1FF419037117D57C /* Pods-quick-gramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gramTests.release.xcconfig"; path = "Target Support Files/Pods-quick-gramTests/Pods-quick-gramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81667B580CC3AEC84724AF5 /* Pods_quick_gram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A73AE401F2FD6AF516C4FCE /* Pods_quick_gramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D98F08C0EA09B84B5339F4 /* Pods_quick_gramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				273FA7FD2231BAFD000FEBC2 /* quick-gramTests */,
 				273FA8082231BAFD000FEBC2 /* quick-gramUITests */,
 				273FA7E72231BAFB000FEBC2 /* Products */,
+				E401F4AB6891C2CB68313A8B /* Pods */,
+				F4951E3E7A421B5A1CB7ADE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				273FA7E92231BAFB000FEBC2 /* AppDelegate.swift */,
-				273FA7EB2231BAFB000FEBC2 /* ViewController.swift */,
 				273FA7ED2231BAFB000FEBC2 /* Main.storyboard */,
+				273FA81D2231E991000FEBC2 /* PostCell.swift */,
 				273FA7F02231BAFD000FEBC2 /* Assets.xcassets */,
 				273FA7F22231BAFD000FEBC2 /* LaunchScreen.storyboard */,
 				273FA7F52231BAFD000FEBC2 /* Info.plist */,
+				273FA8172231C0B1000FEBC2 /* LoginViewController.swift */,
+				273FA8192231C0C3000FEBC2 /* FeedViewController.swift */,
+				273FA81B2231DCBC000FEBC2 /* CameraViewController.swift */,
 			);
 			path = "quick-gram";
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = "quick-gramUITests";
 			sourceTree = "<group>";
 		};
+		E401F4AB6891C2CB68313A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50CC2BE4B5D1E0CCE9CAE708 /* Pods-quick-gram.debug.xcconfig */,
+				6A5B2DF09CD4A54551757C46 /* Pods-quick-gram.release.xcconfig */,
+				12475AEDB3742BA4750EFEC2 /* Pods-quick-gramTests.debug.xcconfig */,
+				C284BB3A1FF419037117D57C /* Pods-quick-gramTests.release.xcconfig */,
+				9ABC30D3638EDF8A35AF8586 /* Pods-quick-gramUITests.debug.xcconfig */,
+				A75D5DECC45FE1F7C1131EEF /* Pods-quick-gramUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4951E3E7A421B5A1CB7ADE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425826797599257D23A4B066 /* Pods_quick_gram.framework */,
+				466BE0DDB8223135A86D7A08 /* Pods_quick_gramTests.framework */,
+				7A95CF7926A9E1FD5AC6DC44 /* Pods_quick_gramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273FA80E2231BAFD000FEBC2 /* Build configuration list for PBXNativeTarget "quick-gram" */;
 			buildPhases = (
+				286037FF3E7D9AD771516F9D /* [CP] Check Pods Manifest.lock */,
 				273FA7E22231BAFB000FEBC2 /* Sources */,
 				273FA7E32231BAFB000FEBC2 /* Frameworks */,
 				273FA7E42231BAFB000FEBC2 /* Resources */,
+				81409D897BF5FD1616A3A155 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273FA8112231BAFD000FEBC2 /* Build configuration list for PBXNativeTarget "quick-gramTests" */;
 			buildPhases = (
+				D7C0BF35CD35ADB36296041A /* [CP] Check Pods Manifest.lock */,
 				273FA7F62231BAFD000FEBC2 /* Sources */,
 				273FA7F72231BAFD000FEBC2 /* Frameworks */,
 				273FA7F82231BAFD000FEBC2 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273FA8142231BAFD000FEBC2 /* Build configuration list for PBXNativeTarget "quick-gramUITests" */;
 			buildPhases = (
+				C0DE93A454CB2495EA914139 /* [CP] Check Pods Manifest.lock */,
 				273FA8012231BAFD000FEBC2 /* Sources */,
 				273FA8022231BAFD000FEBC2 /* Frameworks */,
 				273FA8032231BAFD000FEBC2 /* Resources */,
@@ -251,13 +304,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		286037FF3E7D9AD771516F9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-gram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81409D897BF5FD1616A3A155 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-gram/Pods-quick-gram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-gram/Pods-quick-gram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DE93A454CB2495EA914139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-gramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C0BF35CD35ADB36296041A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-gramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		273FA7E22231BAFB000FEBC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273FA7EC2231BAFB000FEBC2 /* ViewController.swift in Sources */,
+				273FA8182231C0B1000FEBC2 /* LoginViewController.swift in Sources */,
+				273FA81C2231DCBC000FEBC2 /* CameraViewController.swift in Sources */,
+				273FA81A2231C0C3000FEBC2 /* FeedViewController.swift in Sources */,
 				273FA7EA2231BAFB000FEBC2 /* AppDelegate.swift in Sources */,
+				273FA81E2231E991000FEBC2 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +583,7 @@
 		};
 		273FA80F2231BAFD000FEBC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CC2BE4B5D1E0CCE9CAE708 /* Pods-quick-gram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +601,7 @@
 		};
 		273FA8102231BAFD000FEBC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5B2DF09CD4A54551757C46 /* Pods-quick-gram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +619,7 @@
 		};
 		273FA8122231BAFD000FEBC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12475AEDB3742BA4750EFEC2 /* Pods-quick-gramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +640,7 @@
 		};
 		273FA8132231BAFD000FEBC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C284BB3A1FF419037117D57C /* Pods-quick-gramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +661,7 @@
 		};
 		273FA8152231BAFD000FEBC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABC30D3638EDF8A35AF8586 /* Pods-quick-gramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +681,7 @@
 		};
 		273FA8162231BAFD000FEBC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75D5DECC45FE1F7C1131EEF /* Pods-quick-gramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
