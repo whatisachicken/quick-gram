@@ -67,6 +67,10 @@
                                     <action selector="onSignup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gv-S5-s4D"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="insta-logo" translatesAutoresizingMaskIntoConstraints="NO" id="HON-E6-BN0">
+                                <rect key="frame" x="97" y="64" width="182" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -108,13 +112,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jonathan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAJ-x2-2uf">
-                                                    <rect key="frame" x="23" y="327" width="71" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="23" y="329" width="75" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="My first post." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRX-UM-hQm">
-                                                    <rect key="frame" x="102" y="329" width="265" height="18.5"/>
+                                                    <rect key="frame" x="106" y="331" width="261" height="18.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -124,11 +128,11 @@
                                                 <constraint firstItem="lRX-UM-hQm" firstAttribute="leading" secondItem="QAJ-x2-2uf" secondAttribute="trailing" constant="8" id="JNH-II-NPj"/>
                                                 <constraint firstAttribute="trailing" secondItem="t3X-nn-D6x" secondAttribute="trailing" constant="10" id="LJi-19-A8Y"/>
                                                 <constraint firstItem="t3X-nn-D6x" firstAttribute="top" secondItem="nMr-4J-1Xk" secondAttribute="top" constant="10" id="ScI-gq-g8z"/>
-                                                <constraint firstItem="lRX-UM-hQm" firstAttribute="top" secondItem="t3X-nn-D6x" secondAttribute="bottom" constant="8" id="TpY-sN-3se"/>
+                                                <constraint firstItem="lRX-UM-hQm" firstAttribute="top" secondItem="t3X-nn-D6x" secondAttribute="bottom" constant="10" id="TpY-sN-3se"/>
                                                 <constraint firstAttribute="trailing" secondItem="lRX-UM-hQm" secondAttribute="trailing" constant="8" id="akJ-qI-r7G"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lRX-UM-hQm" secondAttribute="bottom" constant="8" id="jdW-hs-cUG"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lRX-UM-hQm" secondAttribute="bottom" constant="6" id="jdW-hs-cUG"/>
                                                 <constraint firstItem="QAJ-x2-2uf" firstAttribute="leading" secondItem="nMr-4J-1Xk" secondAttribute="leadingMargin" constant="8" id="jzW-aG-cpn"/>
-                                                <constraint firstItem="QAJ-x2-2uf" firstAttribute="top" secondItem="t3X-nn-D6x" secondAttribute="bottom" constant="6" id="lEu-oI-Crb"/>
+                                                <constraint firstItem="QAJ-x2-2uf" firstAttribute="top" secondItem="t3X-nn-D6x" secondAttribute="bottom" constant="8" id="lEu-oI-Crb"/>
                                                 <constraint firstItem="t3X-nn-D6x" firstAttribute="leading" secondItem="nMr-4J-1Xk" secondAttribute="leading" constant="10" id="oLQ-07-r2i"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -231,6 +235,7 @@
     </scenes>
     <resources>
         <image name="image_placeholder" width="375" height="375"/>
+        <image name="insta-logo" width="180" height="148"/>
         <image name="insta_camera_btn" width="25" height="25"/>
     </resources>
 </document>
