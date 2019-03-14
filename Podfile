@@ -8,6 +8,7 @@ target 'quick-gram' do
   # Pods for quick-gram
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
   target 'quick-gramTests' do
     inherit! :search_paths
     # Pods for testing

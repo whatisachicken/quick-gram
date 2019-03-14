@@ -17,6 +17,7 @@
 		273FA81A2231C0C3000FEBC2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA8192231C0C3000FEBC2 /* FeedViewController.swift */; };
 		273FA81C2231DCBC000FEBC2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA81B2231DCBC000FEBC2 /* CameraViewController.swift */; };
 		273FA81E2231E991000FEBC2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FA81D2231E991000FEBC2 /* PostCell.swift */; };
+		27A0E5BB223AF7E00008ADE9 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A0E5BA223AF7E00008ADE9 /* CommentCell.swift */; };
 		6A73AE401F2FD6AF516C4FCE /* Pods_quick_gramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466BE0DDB8223135A86D7A08 /* Pods_quick_gramTests.framework */; };
 		A9D98F08C0EA09B84B5339F4 /* Pods_quick_gramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95CF7926A9E1FD5AC6DC44 /* Pods_quick_gramUITests.framework */; };
 		E81667B580CC3AEC84724AF5 /* Pods_quick_gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425826797599257D23A4B066 /* Pods_quick_gram.framework */; };
@@ -57,6 +58,7 @@
 		273FA8192231C0C3000FEBC2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		273FA81B2231DCBC000FEBC2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		273FA81D2231E991000FEBC2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		27A0E5BA223AF7E00008ADE9 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		425826797599257D23A4B066 /* Pods_quick_gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BE0DDB8223135A86D7A08 /* Pods_quick_gramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_gramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CC2BE4B5D1E0CCE9CAE708 /* Pods-quick-gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-gram.debug.xcconfig"; path = "Target Support Files/Pods-quick-gram/Pods-quick-gram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				273FA7E92231BAFB000FEBC2 /* AppDelegate.swift */,
 				273FA7ED2231BAFB000FEBC2 /* Main.storyboard */,
+				27A0E5BA223AF7E00008ADE9 /* CommentCell.swift */,
 				273FA81D2231E991000FEBC2 /* PostCell.swift */,
 				273FA7F02231BAFD000FEBC2 /* Assets.xcassets */,
 				273FA7F22231BAFD000FEBC2 /* LaunchScreen.storyboard */,
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				273FA81A2231C0C3000FEBC2 /* FeedViewController.swift in Sources */,
 				273FA7EA2231BAFB000FEBC2 /* AppDelegate.swift in Sources */,
 				273FA81E2231E991000FEBC2 /* PostCell.swift in Sources */,
+				27A0E5BB223AF7E00008ADE9 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
